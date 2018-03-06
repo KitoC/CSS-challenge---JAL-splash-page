@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:400i%7CPT+Serif');
+
+
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+
+body{
+  padding: 100px;
+}
+
+header {
+  padding: 0;
+}
+
+div.banner {
+  background-color: rgba(255,255,255,0.7);
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding:  0;
+  text-align: center;
+}
+
+p.left {
+  font-family: 'Cormorant Garamond', serif;
+  text-align: left;
+  font-size: 2em;
+  padding-top: 15px;
+  padding-left: 150px;
+  line-height: 20px;
+  font-weight: bolder;
+}
+
+p.right {
+  font-family: 'Cormorant Garamond', serif;
+  text-align: right;
+  font-size: 2em;
+  padding: 0px;
+  padding-right: 150px;
+  line-height: 0;
+  font-weight: bolder;
+}
+
+img.logo {
+  width:600px;
+  opacity: 0.8;
+}
+
+h2.fly {
+  font-size: 3em;
+  line-height: 1px;
+  border: 5px;
+  border-color: red;
+}
+#fly {
+  color: white;
+  font-size: 3em;
+  align-items: center;
+  background-color: rgba(230,10,10,0.7);
+  /* border-color: white; */
+  border: 5px;
+  border-radius: 15px;
+  font-family: 'PT Serif', serif;
+  margin-bottom: 10px;
+
+  /* width: 430px; */
+
+}
+
+.bg {
+    background-image: url(images/castle-fuji2.jpg);
+    background-size: cover;
+    background-position: center top;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 0;
+}
